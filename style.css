@@ -1,15 +1,15 @@
 :root {
-  /* Warm paper palette — personal, not corporate */
-  --bg: #faf8f4;
-  --bg-soft: #f3efe8;
+  /* White, blue, black */
+  --bg: #ffffff;
+  --bg-soft: #f3f6fb;
   --card: #ffffff;
-  --border: #e7e0d5;
-  --border-strong: #d8cfc0;
-  --text: #2f2a24;
-  --text-dim: #6d6459;
-  --text-faint: #9c9285;
-  --accent: #b5613a;
-  --accent-soft: #f6ece5;
+  --border: #e2e8f0;
+  --border-strong: #c7d2e0;
+  --text: #0a0e17;
+  --text-dim: #4d5666;
+  --text-faint: #8b95a5;
+  --accent: #1d4ed8;
+  --accent-soft: #eef3fe;
 
   --serif: Georgia, "Iowan Old Style", "Times New Roman", serif;
   --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -41,7 +41,7 @@ body {
   position: sticky;
   top: 0;
   z-index: 100;
-  background: rgba(250, 248, 244, 0.85);
+  background: rgba(255, 255, 255, 0.88);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--border);
 }
@@ -165,7 +165,7 @@ body {
   background: var(--accent);
   color: #fff;
 }
-.btn-primary:hover { background: #9d5231; }
+.btn-primary:hover { background: #163fad; }
 
 .btn-ghost {
   border: 1px solid var(--border-strong);
@@ -489,14 +489,15 @@ body {
 
 /* ---------- Footer ---------- */
 .site-footer {
-  border-top: 1px solid var(--border);
-  padding: 26px 0;
+  background: var(--text);
+  padding: 28px 0;
+  margin-top: 40px;
 }
 
 .footer-inner {
   display: flex;
   justify-content: space-between;
-  color: var(--text-faint);
+  color: rgba(255, 255, 255, 0.62);
   font-size: 0.82rem;
 }
 
